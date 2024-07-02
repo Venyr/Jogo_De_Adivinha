@@ -50,7 +50,6 @@ function gerarNumero_aleatorio() {
         return gerarNumero_aleatorio();
     } else {
         lista_numeros.push(numero_gerado);
-        console.log(lista_numeros);
         return numero_gerado;
     }
 }
